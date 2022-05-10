@@ -120,6 +120,8 @@ body {
     background-color: var(--off-white);
 }
 
+/* footer */
+
 .footer {
     background-color: var(--primary);
     padding: 2rem 1rem;
@@ -158,7 +160,7 @@ body {
         width: 100%;
     }
     .list-item-inline {
-        display: inline;
+        display: block;
         padding: 0rem;
     }
     .container-center {

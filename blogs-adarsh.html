@@ -4,24 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>blogs | adarsh-balak</title>
+    <title>My Portfolio | Blogs</title>
     <link rel="stylesheet" href="adarsh-balak-css.css" />
     <style>
-      .center {
-        text-align: center;
-      }
-      ol.center li {
+      section {
         text-align: left;
-        margin-left: 40%;
+        margin-bottom: 1rem;
       }
-      summary {
-        font-weight: 505;
+      a {
+        margin-top: 5rem;
       }
     </style>
   </head>
   <body>
     <nav class="navigation container">
-      <div class="nav-brand"><a href="/">iamdeveloper</a></div>
+      <div class="nav-brand"><a href="/">iamfrontenddeveloper</a></div>
       <ul class="list-non-bullet nav-pills">
         <li class="list-item-inline">
           <a class="link" href="./index.html">HOME</a>
@@ -45,119 +42,122 @@
       <li>
         <article class="showcase-list container container-center">
           <header>
-            <h1>Most used git commands</h1>
+            <h2>Most used git commands</h2>
+            <small>May, 2022</small>
           </header>
           <main>
-            <p>
+            <h4>
               <em>
                 Basic git commands that every developer use daily to track
                 changes, push code:
               </em>
-            </p>
-            <ol class="center">
-              <li>
-                <details>
-                  <summary>git config</summary>
+            </h4>
+            <section>
+              <ul>
+                <li>
+                  <strong>git config</strong>
                   <p>
                     Usage: git config -global user.name "[name]" <br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;git
-                    config -global user.email "[email address]"
-                  </p>
-                  <p>
+                    git config -global user.email "[email address]" <br />
                     This command sets the author name and email address
                     respectively to be used with your commits
                   </p>
-                </details>
-              </li>
-              <li>
-                <details>
-                  <summary>git init</summary>
-                  <p>Usage: git init [repository name]</p>
-                  <p>This command is used to start a new repository</p>
-                </details>
-              </li>
-              <li>
-                <details>
-                  <summary>git clone</summary>
-                  <p>Usage: git clone [url]</p>
+                </li>
+                <li>
+                  <strong>git init</strong>
                   <p>
+                    Usage: git init [repository name] <br />
+                    This command is used to start a new repository
+                  </p>
+                </li>
+                <li>
+                  <strong>git clone</strong>
+                  <p>
+                    Usage: git clone [url] <br />
                     This command is used to obtain a repository from an existing
                     url
                   </p>
-                </details>
-              </li>
-              <li>
-                <details>
-                  <summary>git add</summary>
-                  <p>Usage: git add [file]</p>
-                  <p>This command adds a file to the staging area</p>
-                </details>
-              </li>
-              <li>
-                <details>
-                  <summary>git commit</summary>
-                  <p>Usage: git commit -m "[type in the commit message]"</p>
+                </li>
+                <li>
+                  <strong>git add</strong>
                   <p>
+                    Usage: git add [file] <br />
+                    This command adds a file to the staging area
+                  </p>
+                </li>
+                <li>
+                  <strong>git commit</strong>
+                  <p>
+                    Usage: git commit -m "[type in the commit message]" <br />
                     This command records a snapshots the file permanently in the
                     version history
                   </p>
-                </details>
-              </li>
-              <li>
-                <details>
-                  <summary>git status</summary>
-                  <p>Usage: git status</p>
+                </li>
+                <li>
+                  <strong>git status</strong>
                   <p>
+                    Usage: git status <br />
                     This command lists all the files that have to be committed
                   </p>
-                </details>
-              </li>
-              <li>
-                <details>
-                  <summary>git branch</summary>
-                  <p>Usage: git branch</p>
+                </li>
+                <li>
+                  <strong>git branch</strong>
                   <p>
+                    Usage: git branch <br />
                     This command lists all the local branches in the current
-                    repository
+                    repository <br />
+                    Usage: git branch [branch name] <br />
+                    This command created new branch
                   </p>
-                  <p>Usage: git branch [branch name]</p>
-                  <p>This command created new branch</p>
-                </details>
-              </li>
-              <li>
-                <details>
-                  <summary>git checkout</summary>
-                  <p>Usage: git checkout [branch name]</p>
+                </li>
+                <li>
+                  <strong>git checkout</strong>
                   <p>
+                    Usage: git checkout [branch name] <br />
                     This command is used to switch from one branch to another
                     branch
                   </p>
-                </details>
-              </li>
-              <li>
-                <details>
-                  <summary>git push</summary>
-                  <p>Usage: git push [variable name] main/master</p>
+                </li>
+                <li>
+                  <strong>git push</strong>
                   <p>
+                    Usage: git push [variable name] main/master <br />
                     This command sends the committed changes of master branch to
                     your remote repository
                   </p>
-                </details>
-              </li>
-            </ol>
+                </li>
+              </ul>
+            </section>
           </main>
         </article>
       </li>
       <li>
         <article class="showcase-list container container-center">
-          <h1>dummy blog</h1>
+          <h2>Semantic HTML</h2>
           <small>May, 2022</small>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, non
-            animi. Magni corrupti harum atque velit, ab dolore maxime, culpa
-            quibusdam iure, in blanditiis magnam obcaecati eaque veniam cumque
-            quae!
+            To make a good communication it is important to understand the
+            meaning of words in any language. Same in computer language
+            "Semantics" refers to meaning of peace of code. "What is the
+            purpose/role of the code?" of that HTML element have. It makes HTML
+            more comprehensible by defining the different sections and layout of
+            web pages.
           </p>
+          <section>
+            <p>The are several advantages of using semantic tags in HTML:</p>
+            <ul>
+              <li>
+                The semantic HTML tag helps the search engines and other user
+                devices to determine the importance and context of web pages.
+              </li>
+              <li>
+                The pages made with semantic elememts are much easier to read.
+              </li>
+              <li>
+                It has greater accessibility. It offers better user experience.
+              </li>
+            </ul>
+          </section>
           <a class="link link-primary" href="">read more</a>
         </article>
       </li>

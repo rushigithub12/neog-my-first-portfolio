@@ -6,30 +6,146 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>blogs | adarsh-balak</title>
     <link rel="stylesheet" href="adarsh-balak-css.css" />
+    <style>
+      .center {
+        text-align: center;
+      }
+      ol.center li {
+        text-align: left;
+        margin-left: 40%;
+      }
+      summary {
+        font-weight: 505;
+      }
+    </style>
   </head>
   <body>
     <nav class="navigation container">
       <div class="nav-brand"><a href="/">iamdeveloper</a></div>
       <ul class="list-non-bullet nav-pills">
-        <li class="list-item-inline"><a class="link" href="./index.html">HOME</a></li>
-        <li class="list-item-inline"><a class="link" href="./projects.html">PROJECTS</a></li>
-        <li class="list-item-inline"><a class="link link-active" href="./blogs-adarsh.html">BLOGS</a></li>
+        <li class="list-item-inline">
+          <a class="link" href="./index.html">HOME</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="./projects.html">PROJECTS</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link link-active" href="./blogs-adarsh.html">BLOGS</a>
+        </li>
       </ul>
     </nav>
 
     <header class="hero">
-      <h1 class="hero-heading">read my <span class="heading-inverted">blogs</span></h1>
+      <h1 class="hero-heading">
+        read my <span class="heading-inverted">blogs</span>
+      </h1>
     </header>
 
     <ul class="list-non-bullet">
       <li>
         <article class="showcase-list container container-center">
-          <h1>dummy blog</h1>
-          <small>May, 2022</small>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit doloribus laborum architecto unde fugiat beatae placeat excepturi libero rem quisquam ducimus, non blanditiis facilis cum quaerat quis voluptas voluptates ex.
-          </p>
-          <a class="link link-primary" href="">read more</a>
+          <header>
+            <h1>Most used git commands</h1>
+          </header>
+          <main>
+            <p>
+              <em>
+                Basic git commands that every developer use daily to track
+                changes, push code:
+              </em>
+            </p>
+            <ol class="center">
+              <li>
+                <details>
+                  <summary>git config</summary>
+                  <p>
+                    Usage: git config -global user.name "[name]" <br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;git
+                    config -global user.email "[email address]"
+                  </p>
+                  <p>
+                    This command sets the author name and email address
+                    respectively to be used with your commits
+                  </p>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary>git init</summary>
+                  <p>Usage: git init [repository name]</p>
+                  <p>This command is used to start a new repository</p>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary>git clone</summary>
+                  <p>Usage: git clone [url]</p>
+                  <p>
+                    This command is used to obtain a repository from an existing
+                    url
+                  </p>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary>git add</summary>
+                  <p>Usage: git add [file]</p>
+                  <p>This command adds a file to the staging area</p>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary>git commit</summary>
+                  <p>Usage: git commit -m "[type in the commit message]"</p>
+                  <p>
+                    This command records a snapshots the file permanently in the
+                    version history
+                  </p>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary>git status</summary>
+                  <p>Usage: git status</p>
+                  <p>
+                    This command lists all the files that have to be committed
+                  </p>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary>git branch</summary>
+                  <p>Usage: git branch</p>
+                  <p>
+                    This command lists all the local branches in the current
+                    repository
+                  </p>
+                  <p>Usage: git branch [branch name]</p>
+                  <p>This command created new branch</p>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary>git checkout</summary>
+                  <p>Usage: git checkout [branch name]</p>
+                  <p>
+                    This command is used to switch from one branch to another
+                    branch
+                  </p>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary>git push</summary>
+                  <p>Usage: git push [variable name] main/master</p>
+                  <p>
+                    This command sends the committed changes of master branch to
+                    your remote repository
+                  </p>
+                </details>
+              </li>
+            </ol>
+          </main>
         </article>
       </li>
       <li>
@@ -37,7 +153,10 @@
           <h1>dummy blog</h1>
           <small>May, 2022</small>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, non animi. Magni corrupti harum atque velit, ab dolore maxime, culpa quibusdam iure, in blanditiis magnam obcaecati eaque veniam cumque quae!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, non
+            animi. Magni corrupti harum atque velit, ab dolore maxime, culpa
+            quibusdam iure, in blanditiis magnam obcaecati eaque veniam cumque
+            quae!
           </p>
           <a class="link link-primary" href="">read more</a>
         </article>
@@ -52,6 +171,5 @@
         <li class="list-item-inline"><a class="link" href="">linkedin</a></li>
       </ul>
     </footer>
-
   </body>
 </html>
